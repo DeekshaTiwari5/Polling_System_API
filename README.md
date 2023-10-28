@@ -62,11 +62,11 @@ You can use the provided API endpoints to interact with the Polling System. See 
 API Endpoints
 The following API endpoints are available:
 
-**Create a question: POST /questions/create
-**Get question details: GET /questions/:id
-**Delete a question: DELETE /questions/delete/:id
-**Create an option for a question: POST /questions/options/create/:id
-**Add a vote to an option: POST /questions/options/add_vote/:id
-**Update an option: PATCH /questions/options/update/:id
-**Delete an option: DELETE /questions/options/delete/:id
+- **Create a question: POST /questions/create
+- **Get question details: GET /questions/:id
+- **Delete a question: DELETE /questions/delete/:id
+- **Create an option for a question: POST /questions/options/create/:id
+- **Add a vote to an option: POST /questions/options/add_vote/:id
+- **Update an option: PATCH /questions/options/update/:id
+- **Delete an option: DELETE /questions/options/delete/:id
 Detailed information on request and response formats can be found in the project's codebase.
