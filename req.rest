@@ -1,0 +1,62 @@
+POST http://localhost:8000/questions/create
+Content-Type: application/json
+
+{
+    "title": "What is your Name?",
+    "options": ["Jon", "Rob", "James"]
+}
+###
+
+GET http://localhost:8000/questions/653c03520ea7626cf1270cf3
+
+###
+DELETE http://localhost:8000/questions/delete/653c03520ea7626cf1270cf3
+
+###
+POST http://localhost:8000/options/create/653c03520ea7626cf1270cf3
+Content-Type: application/json
+
+{
+    "text": "Rose",
+    "votes": 0
+}
+
+###
+POST  http://localhost:8000/options/add_vote/653c03730ea7626cf1270cff
+Content-Type: application/json
+
+{
+    "vote": 1
+}
+###
+POST  http://localhost:8000/options/create/653bd1fcf4eb8accc850cb4e
+Content-Type: application/json
+
+{
+    "text" : "Pune",
+    "votes" : 0
+}
+###
+DELETE http://localhost:8000/options/delete/653c03730ea7626cf1270cff
+###
+###
+
+POST http://localhost:8000/questions/create
+Content-Type: application/json
+
+{
+    "title": "What is the capital of India?",
+    "options": ["Mumbai","Delhi", "Punjab"]
+}
+###
+GET http://localhost:8000/questions/653bd1fcf4eb8accc850cb4e
+
+###
+PATCH http://localhost:8000/options/update/653c03730ea7626cf1270cff
+Content-Type: application/json
+
+{
+    "text": "Rosy"
+
+}
+
