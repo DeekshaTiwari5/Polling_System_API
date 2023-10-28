@@ -11,49 +11,25 @@ A Polling System is a web application that allows users to create and participat
 - [Contributing](#contributing)
 - [License](#license)
 
-#polling-system-api/
-│
+- 
+## Folder Structure
 
+The folder structure for the Polling System API is organized as follows:
 
-├── config/
-│   ├── mongoose.js         # Database configuration
-│  
-│
+- **config/**: Configuration files for setting up your application, including database connections and Express configuration.
+- **controllers/**: Controllers that handle the business logic of your API, like creating, updating, or deleting questions and options.
+- **models/**: Mongoose models that define the structure of your data.
+- **routes/**: Express routes that define the API endpoints for your questions and options.
+- **public/**: If you have static files (e.g., for serving images or stylesheets), you can place them here.
+- **tests/**: Test files and configurations for testing your API.
+- **node_modules/**: Automatically generated folder by npm to store project dependencies (should not be included in version control).
+- **.gitignore**: Configuration file that specifies which files and folders should be ignored by Git.
+- **package.json**: Node.js project file that lists project dependencies and other metadata.
+- **README.md**: The documentation file you're currently reading.
+- **server.js**: The main entry point of your application.
+- ... (other project-specific files and folders)
 
-
-├── controllers/
-│   ├── questionsController.js # Controllers for managing questions
-
-│   ├── optionsController.js   # Controllers for managing options
-│
-
-
-├── models/
-│   ├── Question.js         # Mongoose models for questions
-
-│   ├── Option.js           # Mongoose models for options
-│
-├── routes/
-│   ├── questions.js         # Routes for questions
-
-│   ├── options.js           # Routes for options
-
-
-│  │
-├── public/                # Static files (if serving any)
-
-
-│
-├── node_modules/           # Dependencies (generated, not to be included in version control)
-
-│
-├── .gitignore              # Git ignore configuration
-
-├── package.json            # Node.js project file
-
-├── README.md               # Project README file
-
-├── index.js               # Main application file
+Please note that the actual folder structure may vary based on the specific requirements and organization of your project.
 
 
 
