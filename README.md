@@ -23,16 +23,19 @@ A Polling System is a web application that allows users to create and participat
 
 ├── controllers/
 │   ├── questionsController.js # Controllers for managing questions
+
 │   ├── optionsController.js   # Controllers for managing options
 │
 
 
 ├── models/
 │   ├── Question.js         # Mongoose models for questions
+
 │   ├── Option.js           # Mongoose models for options
 │
 ├── routes/
 │   ├── questions.js         # Routes for questions
+
 │   ├── options.js           # Routes for options
 
 
