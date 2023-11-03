@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // Connect to the MongoDB database running at 'mongodb://0.0.0.0:27017/POLLING-SYSTEM'
-mongoose.connect('mongodb://0.0.0.0:27017/POLLING-SYSTEM');
+mongoose.connect('mongodb+srv://deeksha:deeksha@cluster.ixb0mlz.mongodb.net/?retryWrites=true&w=majority');
 
 // Get the connection instance from Mongoose
 const db = mongoose.connection;
